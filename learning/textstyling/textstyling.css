@@ -1,0 +1,17 @@
+h1 {
+  /* Create a list of fonts for the browser to search for, first one that exists will be used:*/
+  font-family: arial, "Times New Roman";
+  font-size: 22px;
+  font-style: oblique;
+  font-weight: 100;
+  text-align: justify;
+  text-decoration: none; /* underline, etc.*/
+  text-indent: 30px;
+  text-transform: uppercase;
+  color: #ffaaee;
+  line-height: 40px;
+}
+ p {
+   font-size: 22px;
+   line-height: 60px;
+ }
