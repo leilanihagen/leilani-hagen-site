@@ -112,17 +112,12 @@ body {
   background-color: #eee
 }
 
-.main_wrapper {
-  margin: 0 auto; /* top right bottom left */
-  width: 1000px; /* Side margin for all content. */
+.main_content {
+  width: 100%; /* Side margin for all content. */
 }
 
 .main_banner {
-  width: 800px;
-  height: 200px;
-  background-image: url(img/sillybanner.png); /* how to do images in css */
-  background-size: cover;
-  background-potion: center;
+  display: none;
 }
 
 .home-page-text {
