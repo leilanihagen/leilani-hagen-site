@@ -109,7 +109,7 @@ input, select {
 }
 
 body {
-  background-color: #eee
+  background-color: #eee;
 }
 
 .main_content {
@@ -121,8 +121,15 @@ body {
 }
 
 .home-page-text {
-  padding: 5% 0;
-  font-family: sans-serif;
+  width: 100%;
+}
+
+.home_page_text h2 {
+  padding: 30px 30px 20px; /* top left/right bottom*/
+  font-family: arial;
+  font-size: 50px;
+  color: #111;
+  line-height: 44px;
 }
 
 nav {
@@ -155,26 +162,12 @@ ul li a:hover {
   color: green;
 }
 
-/* Target a type of element: */
-h2 {
-	color: red;
-}
-
-/* Good way to target a specific element for styling: */
- .title {
-	 color: green;
- }
-
 /* Bad way to target a indv. element for styling: */
-div h2 {
-	color: green
-}
-
-.huge {
-	font-size: 100px;
-}
+/*div h2 {*/
+/*	color: green*/
+/*}*/
 
 /* Shouldn't really use ids for styling... */
-#title {
+/* #title {
 
-}
+} */
