@@ -118,8 +118,22 @@ body {
   /*padding: 10px 20px;*/
 }
 
+.main_content article {
+  margin-bottom: 50px;
+}
+
+.main_content article p {
+  line-height: 1.1;
+}
+
 .main_content h2 {
-  line-height: 3.5;
+  line-height: 2.5;
+  font-size: 18px;
+}
+
+.main_content h3 {
+  line-height: 2.5;
+  font-size: 14px;
 }
 
 .main_banner {
@@ -131,23 +145,23 @@ body {
   width: 100%;
 }
 
-.home_page_text h2 {
-  padding: 30px 0; /* top left/right bottom*/
+/* .home_page_text h2 {
+  padding: 30px 0;
   font-family: Arial Black;
   font-weight: bold;
   font-size: 18px;
   color: #111;
   line-height: 14px;
-}
+} */
 
-.kids_coding_text h2 {
-  padding: 30px 0; /* top left/right bottom*/
+/* .kids_coding_text h2 {
+  padding: 30px 0;
   font-family: Arial Black;
   font-weight: bold;
   font-size: 18px;
   color: #111;
   line-height: 14px;
-}
+} */
 
 .table {
   display: table;
